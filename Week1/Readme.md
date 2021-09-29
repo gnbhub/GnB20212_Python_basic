@@ -10,7 +10,7 @@ str "Tim", "Hello", '1', '34353'
 bool True, False
 float 0.32, 1.232
 ```
-true는 안됨 
+true는 부울(bool)타입이 될 수 없다. 
 
 **문자열(String)** 은 " "나 ''로 선언하는데, 이 두개는 구분이 없고 보통은 포함관계를 나타내주기 위해 선택적으로 사용한다.
 문자열은 한글자도 가능하다.
@@ -103,7 +103,7 @@ else: #앞의 모든 if문과 elif문이 False인 경우 동작
 
 ## Question
 다음 글자들의 dataype?<br>
-print(type(대상) 하여서 확인해보기
+print(type(대상)) 하여서 확인해보기
 ```python
 'Hello'
 123
