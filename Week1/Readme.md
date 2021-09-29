@@ -25,7 +25,7 @@ print(name)
 age = 18
 print(age)
 ```
-- 파이썬에서 #은 주석을 나타낸다. 해당 줄은 읽지 않는다.
+- 파이썬에서 #은 주석을 나타낸다. #부터 해당 줄 끝까지 해석하지 않는다.
 
 ## 연산자(Operators)
 ```python
@@ -38,9 +38,11 @@ print(num1 / num2)
 ```
  - / : 나누기
  - // : 몫
- - % : 나머지
-<br><br>매력적인 점은 Python에서 변수를 선언할 때 자료형을 선언하지 않아도 된다고 했다. 즉, 연산할 때도 casting이 필요하지 않다는 것이다.
-<br> 더 큰 자료형으로 알아서 casting된다.
+ - % : 나머지 
+<br>
+매력적인 점은 Python에서 변수를 선언할 때 자료형을 선언하지 않아도 된다고 했다. 즉, 연산할 때도 casting이 필요하지 않다는 것이다.
+<br>더 큰 자료형으로 알아서 casting된다.
+
 ```python
 num1 = 3.5
 num2 = 2
@@ -53,7 +55,7 @@ print(num1 / num2)
 ### input?
 `변수이름 = input()` 하게 되면 입력받은 값을 변수에 지정할 수 있다. 매우 간편하다.<br>
 '변수이름 = input(내용)'하게 되면 내용을 출력하고 값을 입력받을 수 있다.
-<br> **입력받은 값은 String type으로 저장됨**
+<br> **입력받은 값은 String type으로 저장된다.**
 ```python
 print('Pick a number: ')
 num1 = input()
