@@ -1,5 +1,5 @@
-# GnB20212_PYTHON_basic
-### [2021.2] PYTHON 입문 스터디
+# GnB20212_Python_basic
+### [2021.2] Python 입문 스터디
 
 https://www.youtube.com/watch?v=OFrLs22MDAw&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm <br>
 https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv<br>
