@@ -1,3 +1,4 @@
+
 #Q1
 
 print (type('hello'))
