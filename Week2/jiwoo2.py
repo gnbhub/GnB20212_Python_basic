@@ -1,13 +1,13 @@
+#Q1
 a = int(input('숫자 입력 : '))
 c=0
 
 for r in range(0,a+1,1) :
     c = c+r 
-    
-    
+       
 print(c)
 
-
+#Q2
 b = int(input('숫자를 입력하세요 (0 : 종료) : '))
 while True :
     if b == 0 :
@@ -20,7 +20,6 @@ while True :
                 print('소수가 아닙니다.')
                 break
         else :
-            
             print('소수입니다.')
             break
         break
