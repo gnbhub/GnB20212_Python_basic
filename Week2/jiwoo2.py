@@ -13,7 +13,6 @@ while True :
     if b == 0 :
         break
     else :
-        
         for r in range(2,b-1,1):
             c=b%r
             if c == 0 :
