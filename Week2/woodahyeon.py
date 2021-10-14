@@ -1,3 +1,4 @@
+
 #Q1
 
 while True:
@@ -25,3 +26,5 @@ while True:
         else:
             print("소수입니다.")
     break
+
+    
