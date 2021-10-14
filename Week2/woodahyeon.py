@@ -1,4 +1,3 @@
-
 #Q1
 
 while True:
