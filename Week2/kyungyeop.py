@@ -16,7 +16,7 @@ while True:
     if num == 0 :
         print("실행을 종료하겠습니다.")
         break
-    elif num == 1:
+    if num == 1:
         print("소수가 아닙니다.")
         break
     else:
