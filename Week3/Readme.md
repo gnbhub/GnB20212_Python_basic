@@ -89,5 +89,87 @@ print(text.split('_')
 ```
 '_' 를 기준으로 하나의 원소가 되어 리스트형으로 반환됨을 알 수 있다.
 <br>만약 () 사이에 아무것도 없다면 공백을 기준으로 스플릿한다.
-## slicing
-앞에서 인덱스틀 통해서 특정 순서에 있는 원소를 가리킬 수 있는것을 배웠는데 
+## Slicing
+앞에서 인덱스틀 통해서 특정 순서에 있는 원소를 가리킬 수 있는것을 배웠는데 리스트나 String 자료형을 range처럼 여러 원소를 한꺼번에 가리킬 수 있다.
+```python
+fruits = ['apples', 'pear', 'strawberrys']
+text = "Hello I like Python"
+
+print(fruits[1])
+print(text[11])
+```
+```python
+>>>
+pear    #fruits의 두번째 원소
+e       #text의 12번째 원소 
+```
+print(text[start:stop:step])의 형태, range(start:stop:step)과 동일하다. 
+```python
+print(text[:])
+```
+[:]라면 전체를 지칭한다.
+```python
+>>>
+Hello I like Python
+```
+```python
+print(text[0:4])
+```
+index 0부터 4 앞까지의 원소 출력
+```python
+Hell
+```
+```python
+print(text[2:])
+```
+index 2부터 끝까지 출력
+```python
+>>>
+llo I like Python
+```
+```python
+print(text[::2])
+```
+처음부터 끝까지 출력하지만 index 2씩 증가하면서 출력 즉, 짝수번째 인덱스만 출력
+```python
+>>>
+HloIlk yhn
+```
+String에서 슬라이싱을 나열하였는데, 리스트도 똑같이 할 수 있다.
+<br> 앞서 `.append`를 통해 리스트에 원소를 추가하는것을 배웠는데, 인덱싱을 통하여 append와 유사한 동작을 하도록 만들 수 있다.
+```python
+fruits[3:3] = 'added'
+print(fruits)
+```
+```python
+>>>
+['apples', 'pear', 'strawberrys', 'a', 'd', 'd', 'e', 'd']
+```
+`fruits[n:n]`하게 되면 n번째 인덱스위치에 원하는 것을 추가할 수 있다. 다만, char형태로만 들어가서 String을 대입하면 한 글자씩 끊어져서 입력이 된다.
+
+## Function(함수)
+수학적인 함수와 그 의미가 유사하다. 인수(argument)를 입력해주어 특정한 결과를 반환하도록 하는 것이다.
+<br> 특정 동작을 여러번 반복할때 유용하게 사용할 수 있다.
+```python
+def addTwo(x):      #함수 선언. def 함수이름(매개변수)
+    return x+2      #함수 내용
+
+newNumber = addTwo(7)
+print(newNumber)
+```
+x는 parameter, 매개변수이다. 매개변수는 하나일수도, 여러개일 수도, 없을수도 있다. 함수 내에서 필요한 매개변수만큼 만들면 된다.
+<br>위에서는 def를 통하여 함수를 선언한다. 그리고 입력받을 매개변수를 정하고 동작을 선언해주면 된다.
+<br>함수 선언 자체로는 동작이 없고 함수를 호출해서 사용을 함으로써 동작한다.
+<br>아래에서 addTwo(7)을 통해서 x에 7이 대입되고 2를 더하여 9를 return한다. 여기서 (7)은 argument, 인수라고 한다.
+```python
+def accel(mass, force):
+    a = force/mass
+    return a
+```
+다음과 같이 매개변수를 두개 입력받도록 작성할 수 있다. 가속도 a = 힘F 나누기 질량m m과 f를 입력받아서 a 반환.
+```python
+def doSomething():
+    print('hi')
+```
+또는 다음과 같이 매개변수를 입력받지않고 작성할 수도 있다.
+
