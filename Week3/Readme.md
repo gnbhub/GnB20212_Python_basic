@@ -173,3 +173,34 @@ def doSomething():
 ```
 또는 다음과 같이 매개변수를 입력받지않고 작성할 수도 있다.
 
+## Example
+따라해봤으면 좋겠어서 게시합니다.
+- 이름, 비밀번호를 체크하여 처리하는 프로그램
+- 비밀번호는 숫자나 문자 둘다 사용하여야 하며, 동일한 문자나 숫자는 연속으로 올 수 없다.
+```python
+name = input("이름을 입력하세요 : ")
+name.strip()    #글자 앞의 공백 제거
+name = name.replace(" ","") #공백을 모두 없앤다.
+
+passwd = input("비밀 번호를 입력하세요 : ")
+for count in range(0, len(passwd)-1):
+    if passwd[count] == passwd[count+1]:
+        print("연속된 문자가 존재합니다.")
+        break;
+    else:
+        print("정상 처리 되었습니다.")
+        print("이름 : %s, 비밀번호 : %s" %(name, passwd)) ##형식있는 출력방식. %s는 string을 받겠다는 것이고"뒤에 어떤것을 참조하는지 기록.
+```
+replace 메소드는 괄호안에서 , 앞쪽의 내용을 , 뒤쪽의 내용으로 바꾼다. 여기서는 공백을 아무것도 없도록 만들어준다.
+
+## Quiz
+- 입력된 문자열에서 공백을 구분하여 단어로 출력하기
+ex
+```python
+문자열을 입력 : hello i am python
+hello
+i
+am
+python
+```
+        
