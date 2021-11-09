@@ -195,7 +195,7 @@ replace 메소드는 괄호안에서 , 앞쪽의 내용을 , 뒤쪽의 내용으
 
 ## Quiz
 - 입력된 문자열에서 공백을 구분하여 단어로 출력하기 함수 형태로 작성!
-ex
+<br>ex
 ```python
 문자열을 입력 : hello i am python
 hello
