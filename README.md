@@ -13,6 +13,6 @@ https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o
 | 3주차 | String자료형, 슬라이싱, 함수 |
 | 4주차 | 파일 입출력, 모듈러 프로그래밍 |
 | 5주차 | 예외처리, 지역변수/전역변수, 클래스와 객체 |
-| 6주차 |  |
-| 7주차 |  |
-| 8주차 |  |
+| 6주차 | 매개변수 활용, Static 개념 |
+| 7주차 | Map()함수, Filter()함수 |
+| 8주차 | 람다 함수 |
