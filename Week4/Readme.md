@@ -137,3 +137,28 @@ print(math.pi)
 print(math.degrees(math.pi))
 ```
 파이를 math 모듈 안의 degrees메소드를 이용하여 출력해보면 180.0이 출력된다.
+```python
+print(math.radians(60))
+```
+math 모듈 안의 radians 메소드를 이용하여 60도를 라디안각으로 바꾸면
+<br>1.0471975511965976 가 출력된다.
+
+```python
+import myModule
+```
+내장 모듈 중에 myModule는 없다. 프로그램은 py 파일이 위치한 곳에서 myModule이 있는지 찾는다.
+<br>같은 디렉토리안에 myModule을 작성해보자. 첨부된 파일을 다운로드하여 같은 디렉토리에 위치시켜주거나 작성하면 된다.
+```python
+def myFunc(x):
+    return x + 5
+def anotherFunc(x):
+    return x//5
+```
+myModule안에 간단하게 myfunc를 정의하면 우리는 myModule을 import하여 myModule안의 myfunc를 사용할 수 있다.
+```python
+import myModule
+print(myModule.myFunc(6))
+print(myModule.anotherFunc(365000))
+```
+메인 스크립트에서 다음과 같이 myModule안에 정의된 함수를 불러와서 사용할 수 있다.
+<br>추가적으로 다른 파이썬 내장 모듈들에 대해 알고싶다면 python 공식 홈페이지에 방문하면 찾아볼 수 있다.
