@@ -1,0 +1,6 @@
+name reading listening
+tim 300 300
+yarn 285 350
+tei 390 420
+hyuk 250 400
+hong 330 350
