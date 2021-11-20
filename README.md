@@ -16,3 +16,4 @@ https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o
 | 6주차 | 매개변수 활용, Static 개념 |
 | 7주차 | Map()함수, Filter()함수 |
 | 8주차 | 람다 함수 |
+※종강 전까지 6주차 진행 예정.
