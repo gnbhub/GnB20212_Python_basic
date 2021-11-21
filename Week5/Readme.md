@@ -97,4 +97,4 @@ except:
 `try:` 블록을 만들어서 안쪽에 선언해주면 블록 안의 코드를 실행하고 만약 실행 중 오류가 난다면 이후 문장은 수행하지 않고 `except:`블록 안의 문장을 수행한다.
 <br>그래서 이번에 문자를 입력했을때 오류는 나지 않고'Invalid Username'이 출력되는것을 확인할 수 있다. 만약 숫자가 들어간다면 정상 동작할것이다.
 이것이 간단한 예외처리이고 만약 예외처리 개념이 더 궁금하다면 이쪽을 참조하면 좋을 것 같다.
-https://github.com/gnbhub/gnb20211JavaStudy_2/tree/master/week7 자바스터디 예외처리part
+자바스터디 예외처리part: https://github.com/gnbhub/gnb20211JavaStudy_2/tree/master/week7 
