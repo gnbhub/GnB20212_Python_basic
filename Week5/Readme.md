@@ -98,3 +98,7 @@ except:
 <br>그래서 이번에 문자를 입력했을때 오류는 나지 않고'Invalid Username'이 출력되는것을 확인할 수 있다. 만약 숫자가 들어간다면 정상 동작할것이다.
 이것이 간단한 예외처리이고 만약 예외처리 개념이 더 궁금하다면 이쪽을 참조하면 좋을 것 같다.
 <br>자바스터디 예외처리part: https://github.com/gnbhub/gnb20211JavaStudy_2/tree/master/week7 
+
+## Global and Local variables(전역변수와 지역변수)
+`Global`은 말 그대로 파일 내의 모든 곳을 의미하고<br>
+`Local`은 특정 블록이나 클래스 내부 만을 가리킨다.
