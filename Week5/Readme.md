@@ -102,3 +102,19 @@ except:
 ## Global and Local variables(전역변수와 지역변수)
 `Global`은 말 그대로 파일 내의 모든 곳을 의미하고<br>
 `Local`은 특정 블록이나 클래스 내부 만을 가리킨다.
+<br>변수의 선언 위치에 따라서 전역변수 지역변수로 나뉘게 된다.
+```python
+var = 9
+
+def func(x):
+    newVar = 7
+    if x == 5:
+        return newVar
+
+print(newVar)
+```
+>>>
+NameError: name 'newVar' is not defined
+```
+newVar은 함수 func안에 선언되었기 때문에 오직 함수 안에서만 접근할 수 있고 바꿀 수 있고 사용할 수 있다.
+```
