@@ -14,6 +14,5 @@ https://www.youtube.com/watch?v=0VdzZQdaZ28&list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o
 | 4주차 | 파일 입출력, 모듈러 프로그래밍 |
 | 5주차 | 예외처리, 지역변수/전역변수, 클래스와 객체 |
 | 6주차 | Static/Class Methods, Map()함수 |
-| 7주차 | Filter()함수 |
-| 8주차 | 람다 함수 |
+| 7주차 | Filter()함수, 람다 함수 |
 #### ※종강 전까지 6주차 진행 예정.
