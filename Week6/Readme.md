@@ -67,4 +67,19 @@ print([func(x) for x in li if x%2==0])
 ```
 실행 결과를 보면 `print(newList)`와 `print(list(map(func, li)))`가 같은 결과를 출력하는것을 볼 수 있다.
 <br>반복 루프를 사용해서 각 원소에 함수를 적용한 것을 배열에 집어넣고 출력한 것과 `list(map(함수, 배열))`을 사용해서 출력한 것과 결과가 같다.
-<br>추가적으로 `print([func(x) for x in li if x%2==0])` 또한 비슷한 결과를 만들어 내는데 일종의 '조건제시법'으로 배열의 원소를 나열한 것이라고 생각하면 되겠다. 
+<br>추가적으로 `print([func(x) for x in li if x%2==0])` 또한 비슷한 결과를 만들어 내는데 일종의 '조건제시법'으로 배열의 원소를 나열한 것이라고 생각하면 되겠다.
+
+## Quiz
+※피보나치 수열
+<br>![image](https://user-images.githubusercontent.com/79446573/144033350-27b049ba-b2ec-418e-9e43-f1b894e7dc62.png)
+<br> 다음과 같이 첫번째 두번째 항이 1이고 마지막 두개 항의 합이 다음 항의 수가 되는 수열이다. 
+<br>
+![image](https://user-images.githubusercontent.com/79446573/144033289-837a6c3a-d8c5-437e-aefe-682f62b7f661.png)
+<br>예시처럼 3 이상의 정수를 입력받아 해당 숫자만큼 피보나치 수열을 리스트 형태로 출력하도록 작성하기
+```python
+num = input("3 이상의 정수 입력")
+list = [ 1, 1]
+## 코드 작성
+
+
+```
