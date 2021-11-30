@@ -72,13 +72,14 @@ print([func(x) for x in li if x%2==0])
 ## Quiz
 ※피보나치 수열
 <br>![image](https://user-images.githubusercontent.com/79446573/144033350-27b049ba-b2ec-418e-9e43-f1b894e7dc62.png)
-<br> 다음과 같이 첫번째 두번째 항이 1이고 마지막 두개 항의 합이 다음 항의 수가 되는 수열이다. 
+<br> 다음과 같이 첫번째 항이 0 두번째 항이 1이고 마지막 두개 항의 합이 다음 항의 수가 되는 수열이다. 
 <br>
-![image](https://user-images.githubusercontent.com/79446573/144033289-837a6c3a-d8c5-437e-aefe-682f62b7f661.png)
+![image](https://user-images.githubusercontent.com/79446573/144034324-cf6c56d8-68b9-42a8-a99f-270e9d95ea57.png)
+
 <br>예시처럼 3 이상의 정수를 입력받아 해당 숫자만큼 피보나치 수열을 리스트 형태로 출력하도록 작성하기
 ```python
 num = input("3 이상의 정수 입력")
-list = [ 1, 1]
+list = [ 0, 1]
 ## 코드 작성
 
 
