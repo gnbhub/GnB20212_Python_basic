@@ -274,7 +274,7 @@ def withraw(money): #출금하는 함수
 
 
 def display():
-
+```
 ```python
 display()
 deposit(3000)
